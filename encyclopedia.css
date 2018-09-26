@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+  font-family: fantasy;
+  font-size: 50
+}
+#title2{
+  font-size: 25;
+  font-family: fantasy;
+}
+body {
+  img {
+    width: 50%;
+    length: auto;
+  }
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #8EAEBD  ;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #031424;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    background-color: #CF6766;
+
+}
+.descriptions {
+  font-family: monospace;
+  font-size: 20;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://pics.clipartpng.com/Clouds_PNG_Clipart-870.png);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Monkeynames {
+  font-family: cursive;
+font-size: 50;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+}
+}

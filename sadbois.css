@@ -1,0 +1,74 @@
+{
+   box-sizing: border-box;
+}
+h1{
+  font-family: fantasy;
+  font-size: 50
+}
+#title2{
+  font-size: 25;
+  font-family: fantasy;
+}
+
+body {
+ img {
+   width: 50%;
+   length: auto;
+ }
+
+ margin: 0;
+}
+
+/* Style the header */
+.header {
+   background-color: #8EAEBD;
+   padding: 20px;
+   text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+   overflow: hidden;
+   background-color: #031424;
+}
+.content{
+  background-color: #CF6766;
+  font-size: 30;
+  color: white;
+  padding: 20px;
+  font-family: monospace;
+}
+
+/* Style the topnav links */
+.topnav a {
+   float: left;
+   display: block;
+   color: #f6f6f6;
+   text-align: center;
+   padding: 14px 14px;
+   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #ddd;
+   color: black;
+
+.row {
+ display: flex;
+ flex-direction: row;
+}
+
+object {
+
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+   .column {
+       width: 100%;
+}
